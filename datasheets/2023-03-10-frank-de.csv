@@ -1,0 +1,18 @@
+DE,Package,Disk Usage (MB),CPU (idle),RAM (idle),Notes
+Base (Debian on TTY),,,0,71.6,
+GNOME,gnome-core,1860,0,672,
+KDE Plasma,kde-plasma-desktop,2432,0,458,
+Cinnamon,cinnamon-core,1396,0.2,515,
+Mate,task-mate-desktop,2656,0,323,"Kind of a pain, needs separate display manager install and core doesn't work out of the box.
+
+No way to install 'easily' as a base desktop, skewing disk usage figures up.
+
+They unwisely included OpenOffice as a core utility."
+XFCE,xfce4,712,0,260.5,
+LXDE,lxde-core,715,0.1,182.5,
+LXQt,lxqt,2041,0,322,"lxqt-core did not work out of the box, therefore skipped to lxqt"
+fluxbox,xorg fluxbox,287,0,111,ok
+openbox,xorg openbox,408,0,107,ok
+i3,xorg i3,300,0,120,harshly minimalist
+dwm,xorg dwm suckless-tools,259,0,108,harshly minimalist + emacs keybindings
+awesome,xorg awesome,388,0,135.5,awesome; seems like a good wm for beginners
